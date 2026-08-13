@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vily Jhon Amen | Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+             
+  </head>
+  <body>
+    <!-- =========================
+     NAVIGATION
+========================= -->
+
+<nav>
+
+    <div class="logo">
+        Vily Jhon M. Amen
+    </div>
+
+  <div class="nav-right">
+    <ul>
+
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="#about">About</a>
+        </li>
+
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+            <a href="#contact"margin-left="5px">Contact</a>
+        </li>
+
+    </ul>
+    <label class="theme-switch" title="Toggle dark / light mode">
+      <input type="checkbox" id="themeToggle" onchange="toggleTheme()">
+            <span class="switch-track">
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+                    <circle cx="12" cy="12" r="4.5"></circle>
+                    <line x1="12" y1="1.5" x2="12" y2="4"></line>
+                    <line x1="12" y1="20" x2="12" y2="22.5"></line>
+                    <line x1="1.5" y1="12" x2="4" y2="12"></line>
+                    <line x1="20" y1="12" x2="22.5" y2="12"></line>
+                    <line x1="4.5" y1="4.5" x2="6.2" y2="6.2"></line>
+                    <line x1="17.8" y1="17.8" x2="19.5" y2="19.5"></line>
+                    <line x1="4.5" y1="19.5" x2="6.2" y2="17.8"></line>
+                    <line x1="17.8" y1="6.2" x2="19.5" y2="4.5"></line>
+                </svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"></path>
+                </svg>
+                <span class="switch-thumb"></span>
+            </span>
+        </label>
+
+    </div>
+ 
+
+</nav>
+    <!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+        <img src="jay.jpg" alt="Vily Jhon Amen" class="profile-photo">
+        <div class="small-text">
+            HELLO, I'M
+        </div>
+
+        <h1>
+            VILY JHON AMEN
+        </h1>
+
+        <h2>
+            Student & Aspiring Developer
+        </h2>
+
+        <p>
+            I am a student interested in technology,
+            programming, web development, and learning
+            how digital solutions can help people.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#projects" class="btn" onclick="scrollToSection('projects'); return false;">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn" onclick="scrollToSection('contact'); return false;">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- =========================
+     ABOUT
+========================= -->
+
+<section id="about">
+
+    <h2 class="section-title">
+        About Me
+    </h2>
+
+    <p class="section-description">
+        A little about myself
+    </p>
+
+    <div class="about">
+
+        <p>
+            Hello! I'm Vily Jhon Amen, a student
+            who is currently learning programming
+            and computer-related technologies.
+        </p>
+
+        <p>
+            I enjoy learning new things, solving
+            problems, and creating projects that
+            improve my skills.
+        </p>
+
+    </div>
+
+</section>
+    <!-- =========================
+     PROJECTS
+========================= -->
+
+<section id="projects">
+
+    <h2 class="section-title">
+        Projects
+    </h2>
+
+    <p class="section-description">
+        Some projects I have worked on
+    </p>
+
+    <div class="projects">
+
+
+        <div class="project-card">
+
+            <h3>
+                Personal Portfolio
+            </h3>
+
+            <p>
+                A personal website created to
+                showcase my skills, projects,
+                and experience.
+            </p>
+
+            <div class="tags">
+
+                <span class="tag">
+                    HTML
+                </span>
+
+                <span class="tag">
+                    CSS
+                </span>
+
+                <span class="tag">
+                    JavaScript
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <h3>
+                Budgeting Blog
+            </h3>
+
+            <p>
+                An advocacy website that provides
+                students with simple information
+                about budgeting and money management.
+            </p>
+
+            <div class="tags">
+
+                <span class="tag">
+                    HTML
+                </span>
+
+                <span class="tag">
+                    CSS
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+    <h3>
+        Business Planning Project
+    </h3>
+
+    <p>
+        A business project focused on creating
+        a business plan, analyzing opportunities,
+        and developing strategies for a successful
+        small business.
+    </p>
+
+    <div class="tags">
+
+        <span class="tag">Business</span>
+
+        <span class="tag">Marketing</span>
+
+        <span class="tag">Entrepreneurship</span>
+
+    </div>
+
+</div>
+
+
+    </div>
+
+</section>
+    <!-- =========================
+     SKILLS
+========================= -->
+
+<section id="skills">
+
+    <h2 class="section-title">
+        Skills
+    </h2>
+
+    <p class="section-description">
+        Technologies and skills I'm learning
+    </p>
+
+    <div class="skills">
+
+        <span class="skill">
+            HTML
+        </span>
+
+        <span class="skill">
+            CSS
+        </span>
+
+        <span class="skill">
+            JavaScript
+        </span>
+
+        <span class="skill">
+            Programming
+        </span>
+
+        <span class="skill">
+            Mathematics
+        </span>
+
+        <span class="skill">
+            Problem Solving
+        </span>
+
+        <span class="skill">
+            Canva
+        </span>
+
+    </div>
+
+</section>
+    <!-- =========================
+     EXPERIENCE
+========================= -->
+    <section>
+    <h2 class="section-title">Experience</h2>
+    <p class="section-description">My learning journey</p>
+
+    <div class="timeline">
+      <svg class="timeline-arrow" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M2 4l8 8-8 8 4-8-4-8z M12 4l8 8-8 8 4-8-4-8z"/>
+        </svg>
+
+        <div class="timeline-item">
+            <span>2026 - Present</span>
+            <h3>College Student</h3>
+            <p>Currently studying computer science and developing my programming skills.</p>
+        </div>
+      <div class="timeline-item">
+				<svg class="timeline-arrow-2" viewBox="0 0 24 24" fill="currentColor" left='15'>
+            <path d="M2 4l8 8-8 8 4-8-4-8z M12 4l8 8-8 8 4-8-4-8z"/>
+        </svg>
+        
+            <span>Previous Projects</span>
+            <h3>Student Projects</h3>
+            <p>Created different academic projects involving technology, business, research, and web development.</p>
+        
+        
+      </div>
+
+    </div>
+</section>
+
+
+    <!-- =========================
+     CONTACT
+========================= -->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">
+        Let's Connect
+    </h2>
+
+    <p>
+        Interested in working together or
+        just want to say hello?
+    </p>
+
+    <button
+        class="btn"
+        onclick="showMessage()"
+            >
+        Say Hello
+    </button>
+
+    <p id="message"></p>
+
+</section>
+    <!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+  <div class="footer-socials">
+
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" title="Facebook: Vily Jhon M Amen" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 3h-2a5 5 0 0 0-5 5v3H6v4h2v6h4v-6h3l1-4h-4V8a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+        </a>
+
+        <a href="https://www.instagram.com/fckingj4y" target="_blank" rel="noopener" title="Instagram: @fckingj4y" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                <circle cx="12" cy="12" r="4"></circle>
+                <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+            </svg>
+        </a>
+
+        <a href="mailto:vjamen16@gmail.com" title="Gmail: vjamen16@gmail.com" aria-label="Gmail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect>
+                <path d="M3 6.5l9 6.5 9-6.5"></path>
+            </svg>
+        </a>
+
+    </div>
+
+    <p class="footer-contact">Facebook: <span>Vily Jhon M Amen</span></p>
+    <p class="footer-contact">Instagram: <span>@fckingj4y</span></p>
+    <p class="footer-contact">Gmail: <span>vjamen16@gmail.com</span></p>
+
+    <p>
+        © 2026 Vily Jhon Amen.
+        All Rights Reserved.
+    </p>
+
+</footer>
+       <!-- =========================
+     AI CHAT WIDGET
+========================= -->
+
+    <button class="chat-toggle" onclick="toggleChat()">
+        <svg class="chat-icon" viewBox="0 0 64 64" fill="currentColor">
+            <rect x="2" y="10" width="14" height="4" rx="2"/>
+            <rect x="2" y="20" width="10" height="4" rx="2"/>
+            <rect x="2" y="30" width="6" height="4" rx="2"/>
+            <ellipse cx="42" cy="27" rx="16" ry="15" opacity="0.45"/>
+            <path d="M14 14h26a10 10 0 0 1 10 10v4a10 10 0 0 1-10 10H24l-11 9v-9.6A10 10 0 0 1 4 28v-4a10 10 0 0 1 10-10z"/>
+            <circle cx="16" cy="28" r="2.6" fill="var(--bg-soft)"/>
+            <circle cx="24" cy="28" r="2.6" fill="var(--bg-soft)"/>
+            <circle cx="32" cy="28" r="2.6" fill="var(--bg-soft)"/>
+        </svg>
+    </button>
+
+    <div class="chat-window" id="chat-window">
+        <div class="chat-header">Ask me anything</div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input-row">
+            <input type="text" id="chat-input" placeholder="Type a message...">
+            <button class="chat-send-btn" onclick="sendChatMessage()">Send</button>
+        </div>
+    </div>
+      
+    <script src="port.js">
+      <script src="server.js"></script>
+           <script src="worker.js"></script>
+
+    </script>
+  </body>
+  </html>
+      
